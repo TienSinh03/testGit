@@ -32,9 +32,9 @@ public class Account {
 	 * @param balance   : số dư mặc định 50000
 	 */
 	public Account(long accNumber, String name, double balance) {
-		if (accNumber > 0)
+		if (accNumber > 0) {
 			this.accountNumber = accNumber;
-		else
+		}else
 			this.accountNumber = 0;
 		if (name.isEmpty())
 			this.name = "chưa xác định";
